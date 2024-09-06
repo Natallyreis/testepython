@@ -26,7 +26,7 @@ class Veiculo:
 class TesteVeiculo:
     def __init__(self):
         # Criação de um veículo para testar
-        self.veiculo = Veiculo(marca="Chevrolet", modelo="Impala67", cor="Preto")
+        self.veiculo = Veiculo(marca="Chevrolet", modelo="Impala67", cor="")
 
     def executar_teste(self):
         print(f"Marca: {self.veiculo.marca}")
